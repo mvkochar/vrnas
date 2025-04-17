@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+  --black-100: #18181B;
+  --black-50: #252532;
+  --grey-1: #B0B0B2;
+  --grey-2: #D1D1D1;
+  --purple-10: #CA6AEB;
+  --blue: #19B5F1;
+  --linear: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
+  --success: #00C566;
+  --error: #FF4747;
+  --warning: #FACC15;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 1440px;
+  margin: 0 auto;
+  font-family: "Chakra Petch", sans-serif;
+  background-color: var(--black-100);
+  color: var(--white);
+}
+
+.d-b {
+  display: block;
+}
+
+.d-f {
+  display: flex;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.jc-sa {
+  justify-content: space-around;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.d-n {
+  display: none;
+}
+
+.d-b {
+  display: block;
+}
+
+.pos-r {
+  position: relative;
+}
+
+.btn-clear {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.cur-p {
+  cursor: pointer;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+.fw-medium {
+  font-weight: 500;
+}
+
+.fw-black {
+  font-weight: 900;
+}
+
+.h1-title {
+  font-weight: 600;
+  font-size: 64px;
+  letter-spacing: -0.05em;
+}
+
+.h2-title {
+  font-weight: 600;
+  font-size: 48px;
+  letter-spacing: -0.05em;
+}
+
+.body-one {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+}
