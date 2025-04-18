@@ -1,7 +1,7 @@
 .home-main {
     margin-top: -200px;
     padding-left: 120px;
-    background: url("/public/images/assets.png") no-repeat;
+    background: url("/images/assets.png") no-repeat;
     background-position-y: 163px;
 }
 
@@ -71,8 +71,8 @@
     padding-bottom: 53px;
     padding-left: 64px;
     gap: 50px;
-    background: url("/public/images/home-main-addvantages-bg.png") no-repeat;
-    
+    background: url("images/home-main-addvantages-bg.png") no-repeat;
+
     .advantages-item {
         width: 325px;
         height: 262px;
@@ -97,3 +97,122 @@
     }
 }
 
+.home-about {
+    margin-top: 120px;
+    margin-left: 66px;
+    gap: 69.74;
+
+    .h2-title {
+        margin-top: 12px;
+    }
+
+    .body-one {
+        width: 528px;
+        margin-top: 12px;
+    }
+
+    >div:nth-child(2) {
+        margin-top: 81px;
+    }
+}
+
+.home-about-list {
+    list-style-type: none;
+    margin-top: 24px;
+
+    li {
+        margin-bottom: 14px;
+        padding-left: 28px;
+        background: url("/images/check.png") no-repeat;
+        background-position: 0;
+        font-size: 16px;
+        line-height: 28px;
+
+        &:last-child {
+            margin-bottom: 0;
+
+        }
+    }
+}
+
+.home-about-more {
+    display: block;
+    width: 168px;
+    margin-top: 32px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background: var(--linear);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--white);
+}
+
+.home-service {
+    margin-top: 150px;
+    margin-left: 120px;
+    background: url("/images/light.png") no-repeat right;
+    background-position-y: 0;
+}
+
+.home-service-caption {
+    gap: 274px;
+
+    .h2-title {
+        margin-top: 12px;
+    }
+
+    .body-one {
+        width: 625px;
+        align-self: flex-end;
+    }
+}
+
+.home-service-box {
+    margin-top: 46px;
+    margin-right: 120px;
+    flex-wrap: wrap;
+    column-gap: 26px;
+
+    >div:nth-child(2) {
+        margin-top: 57px;
+    }
+
+    >div:nth-child(3) {
+        margin-top: 135px;
+    }
+
+    >div:nth-child(4) {
+        margin-top: -99px;
+    }
+
+    >div:nth-child(5) {
+        margin-top: -43px;
+    }
+
+    >div:nth-child(6) {
+        margin-top: 30px;
+    }
+}
+
+.home-features {
+    margin-top: 150px;
+    margin-right: 120px;
+    gap: 144.97px;
+
+    .h2-title {
+        margin-top: 12px;
+    }
+
+    >div:nth-child(1) {
+        flex-shrink: 0;
+    }
+}
+
+.home-features-content {
+    margin-top: 32px;
+    flex-direction: column;
+    gap: 48px;
+}

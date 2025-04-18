@@ -1,0 +1,32 @@
+.features_item {
+    width: 548.03px;
+}
+
+.features_item_caption {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 12px;
+    border-bottom: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.features_item_title {
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--white);
+}
+
+.features_item_view {
+    display: block;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.features_item_desc {
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--grey-2);
+}
