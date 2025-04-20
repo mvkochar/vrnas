@@ -107,23 +107,117 @@ const Home = () => {
         </div>
       </section>
       <section className='home-features d-f align-center'>
-          <div>
-            <h4 className="page-bl-above">Why choose us</h4>
-            <h2 className="h2-title">Why Choose Us for Your <br /> VR Needs</h2>
-            <div className="home-features-content d-f">
+        <div>
+          <h4 className="page-bl-above">Why choose us</h4>
+          <h2 className="h2-title">Why Choose Us for Your <br /> VR Needs</h2>
+          <div className="home-features-content d-f">
             {
-                FeaturesList.map((feature)=> {
-                  return (
-                    <FeaturesItem
-                      key={`feature${feature.id}`}
-                      {...feature}
-                    />
-                  )
-                })
-              }
+              FeaturesList.map((feature) => {
+                return (
+                  <FeaturesItem
+                    key={`feature${feature.id}`}
+                    {...feature}
+                  />
+                )
+              })
+            }
+          </div>
+        </div>
+        <div><img src="/images/home-features.png" alt="home-features" /></div>
+      </section>
+      <section className='home-started'>
+        <h4 className="page-bl-above text-center">How to get started</h4>
+        <h2 className="h2-title">Bringing Your Virtual Reality <br /> Dreams to Life</h2>
+        <div className="div"><img src="/images/home-started-video.png" alt="home-started-video" /></div>
+        <a href="" className="home-started-get">Get started</a>
+      </section>
+      <section className='home-testimonial'>
+        <h4 className="page-bl-above text-center">Testimonial</h4>
+        <h2 className="h2-title">What Our Clients Are Saying</h2>
+        <div className="home-testimonial-img"><img src="/images/home-testimonial.png" alt="home-testimonial" /></div>
+        <div className="home-testimonial-item d-f align-center avatar-one">
+          <div className="home-testimonial-avatar">
+            <div><img src="/images/testimonial-avatars/1.png" alt="testimonial-avatars1" /></div>
+          </div>
+          <div className="testimonial-item-content">
+            <p className="testimonial-item-desc">
+              The team was professional, responsive, and a pleasure to work with.
+              We highly recommend VRNas for any VR needs.
+            </p>
+            <p className="testimonial-item-info"><span>Robert Fox</span> - CEO Anono</p>
+          </div>
+        </div>
+        <div className="home-testimonial-avatar avatar-two">
+          <div><img src="/images/testimonial-avatars/2.png" alt="testimonial-avatars2" /></div>
+        </div>
+        <div className="home-testimonial-avatar avatar-three">
+          <div><img src="/images/testimonial-avatars/3.png" alt="testimonial-avatars3" /></div>
+        </div>
+        <div className="home-testimonial-avatar avatar-four">
+          <div><img src="/images/testimonial-avatars/4.png" alt="testimonial-avatars4" /></div>
+        </div>
+        <div className="home-testimonial-avatar avatar-five">
+          <div><img src="/images/testimonial-avatars/5.png" alt="testimonial-avatars5" /></div>
+        </div>
+        <div className="home-testimonial-avatar avatar-six">
+          <div><img src="/images/testimonial-avatars/6.png" alt="testimonial-avatars6" /></div>
+        </div>
+      </section>
+      <section className='home-pricing'>
+        <h4 className="page-bl-above">Our pricing</h4>
+        <h2 className="h2-title">Affordable VR Services for Everyone</h2>
+        <p className="body-one">
+          At VRNas, we believe that everyone should have access to the benefits of VR.
+          That's why we offer a range of pricing options to meet the needs of any budget.
+        </p>
+        <div className="home-pricing-content d-f align-center">
+          <div className="home-pricing-box d-f">
+            <div className="home-pricing-item d-f">
+              <div><img src="/images/pricing-icon.png" alt="pricing-icon" /></div>
+              <div>
+                <h3 className="pricing-item-title">Customizable Packages</h3>
+                <p className="pricing-item-desc">
+                  We understand that each project is unique, so we offer customizable
+                  packages to ensure that you get the services you need at a price
+                  that works for you. Our team will work with you to create a package
+                  that meets your specific goals and budget.
+                </p>
+              </div>
+            </div>
+            <div className="home-pricing-item d-f">
+              <div><img src="/images/pricing-icon.png" alt="pricing-icon" /></div>
+              <div>
+                <h3 className="pricing-item-title">Flexible Payment Options</h3>
+                <p className="pricing-item-desc">
+                  We offer flexible payment options to make it easy for you
+                  to get started with our services. We accept various payment
+                  methods, including credit cards, bank transfers, and PayPal,
+                  and we can also work with you to create a payment plan that
+                  suits your needs.
+                </p>
+              </div>
+            </div>
+            <div className="home-pricing-item d-f">
+              <div><img src="/images/pricing-icon.png" alt="pricing-icon" /></div>
+              <div>
+                <h3 className="pricing-item-title">Satisfaction Guarantee</h3>
+                <p className="pricing-item-desc">
+                  We stand behind our services and are committed to ensuring
+                  that you are completely satisfied with the final product.
+                  If for any reason you are not happy with our services,
+                  we will work with you to make it right or provide a full refund.
+                </p>
+              </div>
             </div>
           </div>
-          <div><img src="/images/home-features.png" alt="home-features" /></div>
+          <div className="home-pricing-line"></div>
+        </div>
+        <div className="home-pricing-info">
+           <h4 className="pricing-info-above">Start from</h4>
+           <h3 className="pricing-info-title">$99</h3>
+           <a href="" className="pricing-info-started">Get Started</a>
+           <p className="pricing-info-note">30 Days Moneyback Guarantee</p>
+        </div>
       </section>
     </>
   )
