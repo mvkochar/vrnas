@@ -117,8 +117,25 @@ body {
   line-height: 21px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  background:  -webkit-linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
+  background: -webkit-linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+.page-breadcrumbs {
+  width: fit-content;
+  margin: 28.5px auto;
+  gap: 4px;
+  font-size: 16px;
+
+  .prev-page {
+    font-weight: 600;
+  }
+
+  .cur-page {
+    font-weight: 300;
+    color: var(--grey-2);
+  }
+
 }

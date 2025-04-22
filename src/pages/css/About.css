@@ -1,0 +1,129 @@
+.about-main {
+    height: fit-content;
+    margin-top: -220px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url("/images/about-main-bg.png") no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.about-main-line {
+    width: 1200.01px;
+    height: 0;
+    margin-left: 120px;
+    border: 0.5px solid;
+    border-image-slice: 1;
+    border-image-source: var(--linear);
+}
+
+.about-vision {
+    margin-top: 150px;
+    margin-left: 120px;
+
+    .h2-title {
+        width: 550px;
+        margin-top: 12px;
+        margin-bottom: 18px;
+    }
+
+    .body-one {
+        width: 625px;
+    }
+}
+
+.about-advantages {
+    margin-top: -341px;
+    padding-top: 351px;
+    background: url('/public/images/about-advantages-bg.png');
+
+    .h2-title {
+        width: 550px;
+        margin: 12px auto 0;
+        text-align: center;
+    }
+}
+
+.about-advantages-box {
+    margin-top: 54px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-top: 42px;
+    padding-bottom: 53px;
+    padding-left: 64px;
+    padding-right: 63px;
+    background: #252532;
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(90deg, var(--white) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.about-advantages-item {
+    width: 325px;
+
+    img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .advantages-item-title {
+        margin-top: 42px;
+        font-size: 20px;
+    }
+
+    .advantages-item-desc {
+        margin-top: 12px;
+        font-size: 14px;
+        line-height: 28px;
+        color: var(--grey-1);
+    }
+}
+
+.about-features {
+    max-height: fit-content;
+    min-height: 749px;
+    margin-top: 150px;
+    margin-left: 111px;
+    padding-top: 150px;
+    padding-left: 722px;
+    background: url("/public/images/about-features-bg.png") no-repeat;
+
+    .h2-title {
+        width: 546px;
+        margin-top: 12px;
+    }
+}
+
+.about-features-box {
+    margin-top: 32px;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.about-team {
+    margin-top: 150px;
+    margin-left: 120px;
+    margin-right: 120px;
+
+    .h2-title {
+        margin-top: 12px;
+    }
+}
+
+.about-team-all {
+    display: block;
+    align-self: flex-end;
+    width: 140px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source: var(--linear);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--white);
+}
