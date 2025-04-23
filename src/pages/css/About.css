@@ -35,7 +35,7 @@
 .about-advantages {
     margin-top: -341px;
     padding-top: 351px;
-    background: url('/public/images/about-advantages-bg.png');
+    background: url('/images/about-advantages-bg.png');
 
     .h2-title {
         width: 550px;
@@ -86,7 +86,7 @@
     margin-left: 111px;
     padding-top: 150px;
     padding-left: 722px;
-    background: url("/public/images/about-features-bg.png") no-repeat;
+    background: url("/images/about-features-bg.png") no-repeat;
 
     .h2-title {
         width: 546px;
@@ -126,4 +126,116 @@
     text-transform: uppercase;
     text-align: center;
     color: var(--white);
+}
+
+.about-team-box {
+    margin-top: 41px;
+
+    >div {
+        width: 293.04px;
+        padding: 9px;
+
+        >div {
+            width: 274.48px;
+            padding-top: 213.24px;
+            padding-bottom: 9.12px;
+            background-size: 274.48px 370.36px !important;
+        }
+    }
+}
+
+.about-partners {
+    margin-top: 152.08px;
+
+    .h2-title {
+        margin-top: 12px;
+        text-align: center;
+    }
+}
+
+.about-partners-img {
+    width: fit-content;
+    margin: 58px auto 0;
+}
+
+.about-faq {
+    margin-top: 150px;
+    background: url("/images/about-faq-bg.png") no-repeat;
+    background-position-x: 80%;
+    background-position-y: 0;
+    background-size: 30%;
+
+    .h2-title {
+        margin-top: 12px;
+        text-align: center;
+    }
+
+    .body-one {
+        width: 764px;
+        margin: 24px auto 0;
+        text-align: center;
+    }
+}
+
+.about-faq-box {
+    width: fit-content;
+    margin: 48px auto 0;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.about-subscribe {
+    width: 1200px;
+    margin-top: 150px;
+    margin-bottom: 64px;
+    margin-left: 120px;
+    padding-top: 38px;
+    padding-bottom: 31px;
+    padding-left: 74px;
+    padding-right: 74px;
+    background: var(--linear);
+    border-radius: 4px;
+}
+
+.about-subscribe-title {
+    width: 520px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 58px;
+    letter-spacing: -.05em;
+}
+
+.about-subscribe-fm {
+    width: 365px;
+    padding-left: 15px;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 2px;
+
+    input {
+        display: block;
+        width: 70%;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-left: 46px;
+        background: url("/images/message.png") no-repeat;
+        background-position: 0;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        color: var(--white);
+       
+        &::placeholder {
+            color: var(--white);
+        }
+    }
+
+    button {
+        display: block;
+        width: 49px;
+        height: 49px;
+        background: rgba(255, 255, 255, 0.21);
+        border: none;
+        cursor: pointer;
+        text-align: center;
+    }
 }

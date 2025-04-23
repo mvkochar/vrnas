@@ -1,0 +1,37 @@
+.team_member {
+    width: 379px;
+    padding: 12px;
+    background-color: rgba(37, 37, 50, 0.6);
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source: var(--linear);
+}
+
+.team_member_content {
+    padding-top: 347px;
+    padding-bottom: 26px;
+}
+
+.team_member_social {
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+    gap: 24px;
+    opacity: 0;
+}
+
+.team_member_name {
+    margin-top: 16px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.team_member_pos {
+    font-size: 14px;
+    text-align: center;
+    color: var(--grey-1);
+}
+
+.team_member_content:hover .team_member_social {
+    opacity: 1;
+}
