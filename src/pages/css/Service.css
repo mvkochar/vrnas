@@ -1,0 +1,60 @@
+.service-main {
+    height: fit-content;
+    margin-top: -220px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url("/images/about-main-bg.png") no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.service-main-line {
+    width: 1200.01px;
+    height: 0;
+    margin-left: 120px;
+    border: 0.5px solid;
+    border-image-slice: 1;
+    border-image-source: var(--linear);
+}
+
+.service-about {
+    margin-top: 149.94px;
+    margin-left: 120px;
+    margin-right: 120px;
+
+    .h2-title {
+        margin-top: 12px;
+    }
+
+    .body-one {
+        width: 625px;
+    }
+}
+
+.service-about-box {
+    margin-top: 46px;
+    flex-wrap: wrap;
+    column-gap: 26px;
+
+    
+    >div:nth-child(2) {
+        margin-top: 57px;
+    }
+
+    >div:nth-child(3) {
+        margin-top: 135px;
+    }
+
+    >div:nth-child(4) {
+        margin-top: -99px;
+    }
+
+    >div:nth-child(5) {
+        margin-top: -43px;
+    }
+
+    >div:nth-child(6) {
+        margin-top: 30px;
+    }
+
+}
