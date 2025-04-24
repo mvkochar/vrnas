@@ -1,0 +1,144 @@
+.pricing-main {
+    height: fit-content;
+    margin-top: -220px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url("/images/about-main-bg.png") no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.pricing-main-line {
+    width: 1200.01px;
+    height: 0;
+    margin-left: 120px;
+    border: 0.5px solid;
+    border-image-slice: 1;
+    border-image-source: var(--linear);
+}
+
+.pricing-plans {
+    margin-top: 150px;
+
+    .h2-title {
+        margin-top: 12px;
+        text-align: center;
+    }
+
+    .body-one {
+        width: 751px;
+        margin: 16px auto 0;
+        text-align: center;
+    }
+}
+
+.pricing-plans-box {
+    margin-top: 40px;
+    margin-left: 120px;
+    gap: 62px;
+}
+
+.pricing-plans-item {
+    width: 359px;
+    padding-top: 35px;
+    padding-bottom: 39px;
+    padding-left: 34px;
+    background-color: #252532;
+    border-radius: 6px;
+
+    .plans-item-title {
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .plans-item-price {
+        margin-top: 9px;
+        font-weight: 600;
+        font-size: 64px;
+        letter-spacing: -.05em;
+
+        span {
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 28px;
+            letter-spacing: 0;
+            color: #71717A;
+        }
+    }
+
+    .plans-item-desc {
+        width: 259px;
+        margin-top: 9px;
+        margin-left: 1px;
+        font-size: 16px;
+        line-height: 28px;
+        color: var(--grey-1);
+    }
+
+    .plans-item-list {
+        width: 265px;
+        margin-top: 16px;
+        margin-left: 1px;
+        list-style-type: none;
+
+        li {
+            margin-bottom: 16px;
+            padding-left: 28px;
+            background: url("/images/check-circle.png") no-repeat;
+            background-position-y: 1px;
+            font-weight: 600;
+            font-size: 16px;
+        }
+    }
+
+    .plans-item-get {
+        display: block;
+        width: 292px;
+        margin-top: 36px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        background-color: rgba(255, 255, 255, 0.06);
+        border: 1px solid;
+        border-image-slice: 1;
+        border-image-source: var(--linear);
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        text-align: center;
+        color: var(--white);
+    }
+}
+
+.pricing-plans-item:hover {
+    border: 1.5px solid;
+    border-image-slice: 1;
+    border-image-source: var(--linear);
+
+    .plans-item-get {
+        background: var(--linear);
+        border: none;
+    }
+}
+
+.pricing-features {
+    margin-top: 150px;
+    padding-left: 111px;
+    background: url(/images/pricing-features-bg.png) no-repeat;
+    gap: 100px;
+
+    .h2-title {
+        width: 546px;
+        margin-top: 12px;
+    }
+
+    >div:nth-child(2) {
+        margin-top: 67.06px;
+    }
+}
+
+.pricing-features-box {
+    margin-top: 32px;
+    flex-direction: column;
+    gap: 48px;
+}
