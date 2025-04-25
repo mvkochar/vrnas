@@ -1,0 +1,108 @@
+.blog-main {
+    height: fit-content;
+    margin-top: -220px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url("/images/about-main-bg.png") no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.blog-main-line {
+    width: 1200.01px;
+    height: 0;
+    margin-left: 120px;
+    border: 0.5px solid;
+    border-image-slice: 1;
+    border-image-source: var(--linear);
+}
+
+.blog-box {
+    margin-top: 95px;
+    margin-left: 120px;
+    margin-right: 120px;
+    flex-wrap: wrap;
+    column-gap: 31px;
+    row-gap: 32px;
+}
+
+.blog-pagination {
+    width: fit-content;
+    margin: 64px auto 0;
+    gap: 16px;
+
+    .pagination-btn {
+        width: 34px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        background-color: rgba(255, 255, 255, 0.06);
+        border: 0.75px solid;
+        border-image-slice: 0.75;
+        border-image-source: var(--linear);
+        cursor: pointer;
+        font-weight: 300;
+        font-size: 14px;
+        letter-spacing: -.05em;
+        color: var(--grey-2);    
+    }
+
+    .pagination-btn__active {
+        color: var(--white);
+    }
+}
+
+.blog-subscribe {
+    width: 1200px;
+    margin-top: 150px;
+    margin-bottom: 64px;
+    margin-left: 120px;
+    padding-top: 38px;
+    padding-bottom: 31px;
+    padding-left: 74px;
+    padding-right: 74px;
+    background: var(--linear);
+    border-radius: 4px;
+}
+
+.blog-subscribe-title {
+    width: 520px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 58px;
+    letter-spacing: -.05em;
+}
+
+.blog-subscribe-fm {
+    width: 365px;
+    padding-left: 15px;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 2px;
+
+    input {
+        display: block;
+        width: 70%;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-left: 46px;
+        background: url("/images/message.png") no-repeat;
+        background-position: 0;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        color: var(--white);
+       
+        &::placeholder {
+            color: var(--white);
+        }
+    }
+
+    button {
+        display: block;
+        width: 49px;
+        height: 49px;
+        background: rgba(255, 255, 255, 0.21);
+        border: none;
+        cursor: pointer;
+        text-align: center;
+    }
+}
