@@ -6,5 +6,9 @@ import Blog from "./Blog";
 import Team from "./Team";
 import Contact from "./Contact";
 import Faq from "./Faq";
+import Terms from "./Terms";
 
-export { Home, About, Service, Pricing, Blog, Team, Contact, Faq }
+export {
+    Home, About, Service, Pricing, Blog,
+    Team, Contact, Faq, Terms
+}
