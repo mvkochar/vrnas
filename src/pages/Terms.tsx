@@ -3,7 +3,7 @@ import './css/Terms.css'
 const Terms = () => {
     return (
         <>
-            <main className='about-main'>
+            <main className='terms-main'>
                 <h1 className="h1-title text-center">Terms & Conditions</h1>
                 <div className="page-breadcrumbs d-f">
                     <p className="prev-page">Home</p>

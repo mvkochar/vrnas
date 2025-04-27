@@ -7,8 +7,9 @@ import Team from "./Team";
 import Contact from "./Contact";
 import Faq from "./Faq";
 import Terms from "./Terms";
+import PrivacyPolicy from "./PrivacyPolicy";
 
 export {
     Home, About, Service, Pricing, Blog,
-    Team, Contact, Faq, Terms
+    Team, Contact, Faq, Terms, PrivacyPolicy
 }

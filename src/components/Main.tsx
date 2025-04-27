@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom"
 import {
   About, Blog, Contact, Faq, Home,
-  Pricing, Service, Team, Terms
+  Pricing, PrivacyPolicy, Service, Team, Terms
 } from "../pages"
 
 const Main = () => {
@@ -42,6 +42,10 @@ const Main = () => {
       <Route
         path="terms"
         element={<Terms />}
+      />
+      <Route
+        path="privacy-policy"
+        element={<PrivacyPolicy/>}
       />
     </Routes>
   )
