@@ -59,7 +59,7 @@ const Contact = () => {
             </section>
             <div className="contact-map"><img src="/images/map.png" alt="map" /></div>
             <section className='contact-subscribe d-f jc-sb align-center'>
-                <h3 className="team-subscribe-title">
+                <h3 className="contact-subscribe-title">
                     Subscribe to our newsletter for latest updates
                 </h3>
                 <form action="" className='contact-subscribe-fm d-f jc-sb'>
